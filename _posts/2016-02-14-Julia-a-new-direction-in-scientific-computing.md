@@ -39,7 +39,7 @@ The simplest way to install Julia is with a binary install. You must [download](
 You have some ways to run Julia:
 - In the terminal using the built-in Julia command line.![Julia splash screen](/assets/images/2016/02/julia.png){: .align-center}
 - With the [Juno](http://junolab.org/) integrated development environment (IDE).![Juno](/assets/images/2016/02/Juno.png){: .align-center}
-- In the browser on [JuliaBox.org](http://juliabox.org/) with IJulia notebooks.![JuliaBox]/(assets/images/2016/02/JuliaBox.png){: .align-center}
+- In the browser on [JuliaBox.org](http://juliabox.org/) with IJulia notebooks.![JuliaBox](/assets/images/2016/02/JuliaBox.png){: .align-center}
 - Through [IJulia](https://github.com/JuliaLang/IJulia.jl), the Julia interface for the [Jupyter](http://jupyter.org/) interactive environment also used by [IPython](http://ipython.org/). For this option, the best method is to install [Anaconda](https://www.continuum.io/downloads), the free Python distribution, which includes Jupyter. The run Julia application and type `Pkg.add("IJulia")` at prompt.![IJulia](/assets/images/2016/02/IJulia.png){: .align-center}
 
 ## What next?
