@@ -10,7 +10,7 @@ tags:
   - studio
 ---
 
-![Lecture recording](/assets/images/2017/02/lecture-recording.jpg){: .align-left} As many of you know, [Coursera](http://www.coursera.org/) is an educational technology company that offers massive open online courses (MOOCs). Coursera works with [universities and other organizations](https://www.coursera.org/about/partners) to make some of their courses available online, offering courses in very different subjects.
+![Lecture recording](/assets/images/2017/02/lecture-recording.jpg | width=100){: .align-left} As many of you know, [Coursera](http://www.coursera.org/) is an educational technology company that offers massive open online courses (MOOCs). Coursera works with [universities and other organizations](https://www.coursera.org/about/partners) to make some of their courses available online, offering courses in very different subjects.
 
 After taking several courses, I have been curious about the technologies Coursera uses in its platform. After surfing the Internet I've discovered some info related to the Coursera´s stack and about the recording of lectures.
 
