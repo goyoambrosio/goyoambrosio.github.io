@@ -12,7 +12,7 @@ tags:
   - Visual Studio
 ---
 
-If you agree with me that Visual Studio is the best IDE for writing software  you've probably missed the R language in that excellent environment. Well, after some time as a private preview, [Microsoft has announced](https://blogs.technet.microsoft.com/machinelearning/2016/03/09/announcing-r-tools-for-visual-studio-2/) the availability of R Tools for Visual Studio as a public and free preview. As it did previously with [Python Tools](https://www.visualstudio.com/en-us/features/python-vs.aspx), [R Tools for Visual Studio](https://www.visualstudio.com/en-us/features/rtvs-vs.aspx) (RTVS) adds R language development capabilities to the popular IDE.
+![R Tools for Visual Studio](/assets/images/2016/03/IC815067.png){: .align-left} If you agree with me that Visual Studio is the best IDE for writing software  you've probably missed the R language in that excellent environment. Well, after some time as a private preview, [Microsoft has announced](https://blogs.technet.microsoft.com/machinelearning/2016/03/09/announcing-r-tools-for-visual-studio-2/) the availability of R Tools for Visual Studio as a public and free preview. As it did previously with [Python Tools](https://www.visualstudio.com/en-us/features/python-vs.aspx), [R Tools for Visual Studio](https://www.visualstudio.com/en-us/features/rtvs-vs.aspx) (RTVS) adds R language development capabilities to the popular IDE.
 
 The main features you will find in this preview release are:
 
@@ -31,6 +31,7 @@ The main features you will find in this preview release are:
 RTVS's product manager John Lam presents the following tour around the features:
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/KPS0ytrt9SA?feature=player_embedded" frameborder="0" allowfullscreen></iframe>{: .align-center}
+
 
 This preview release is just the beginning. Microsoft has plenty of plans to extend RTVS further. For more information check out the official blog post by Shahrokh Mortavazi: [Microsoft Machine Learning Blog](https://blogs.technet.microsoft.com/machinelearning/2016/03/09/announcing-r-tools-for-visual-studio-2/).
 
