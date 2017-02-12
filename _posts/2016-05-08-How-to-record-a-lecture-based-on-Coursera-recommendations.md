@@ -2,6 +2,7 @@
 title: " How to record a lecture based on Coursera recommendations"
 categories:
   - HowTo
+  - Post
 tags:
   - coursera
   - learning
