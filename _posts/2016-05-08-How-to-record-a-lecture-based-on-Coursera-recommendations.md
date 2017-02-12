@@ -9,7 +9,6 @@ tags:
   - lecture
   - recording
   - studio
-comments: true
 ---
 
 ![Lecture recording](/assets/images/2017/02/lecture-recording-320x122.jpg){: .align-left} As many of you know, [Coursera](http://www.coursera.org/) is an educational technology company that offers massive open online courses (MOOCs). Coursera works with [universities and other organizations](https://www.coursera.org/about/partners) to make some of their courses available online, offering courses in very different subjects.
