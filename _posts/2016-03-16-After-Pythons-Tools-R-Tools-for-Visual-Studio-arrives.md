@@ -30,7 +30,7 @@ The main features you will find in this preview release are:
 
 RTVS's product manager John Lam presents the following tour around the features:
 
-<iframe src="https://www.youtube.com/embed/KPS0ytrt9SA?feature=player_embedded" frameborder="0" width="500" allowfullscreen></iframe>{: .align-center}
+<iframe width="500" src="https://www.youtube.com/embed/KPS0ytrt9SA?feature=player_embedded" frameborder="0" width="500" allowfullscreen></iframe>{: .align-center}
 
 
 This preview release is just the beginning. Microsoft has plenty of plans to extend RTVS further. For more information check out the official blog post by Shahrokh Mortavazi: [Microsoft Machine Learning Blog](https://blogs.technet.microsoft.com/machinelearning/2016/03/09/announcing-r-tools-for-visual-studio-2/).
