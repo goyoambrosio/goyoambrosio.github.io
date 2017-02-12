@@ -47,6 +47,14 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."  
+
 # SEO Related
 google_site_verification : znWze-SIKCL5WHEfXKHQg0T1ogIXpRAjoDfZ-65B_Qk"
 bing_site_verification   :
