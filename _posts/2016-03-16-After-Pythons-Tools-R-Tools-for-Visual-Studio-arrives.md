@@ -30,7 +30,7 @@ The main features you will find in this preview release are:
 
 RTVS's product manager John Lam presents the following tour around the features:
 
-<iframe width="100" height="56" src="https://www.youtube.com/embed/KPS0ytrt9SA?feature=player_embedded" frameborder="0" width="100" height="56" allowfullscreen></iframe>{: .align-center}
+<iframe width="5100" height="281" src="https://www.youtube.com/embed/KPS0ytrt9SA?feature=player_embedded" frameborder="0" allowfullscreen></iframe>{: .align-center}
 <br>
 
 
