@@ -1,5 +1,6 @@
 ---
 title: "How to record a lecture based on Coursera recommendations"
+related : true
 categories:
   - HowTo
   - Post

@@ -1,5 +1,6 @@
 ---
 title: "After Pythons Tools, R Tools for Visual Studio arrives"
+related : true
 categories:
   - News
   - Post
