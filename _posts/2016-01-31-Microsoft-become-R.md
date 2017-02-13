@@ -7,7 +7,7 @@ categories:
 tags: data science, language, microsoft, open, programming, R, statistical analysis
 ---
 
-![Microsoft R Open](/assets/images/2016/01/) [Microsoft](http://www.microsoft.com/) has
+![Microsoft R Open](/assets/images/2016/01/MRO-Logo-1.png) [Microsoft](http://www.microsoft.com/) has
 entered in a new era that some of us have been waiting for years. Now Microsoft
 is more open and the proof is their approach
 to [data science](https://en.wikipedia.org/wiki/Data_science). As a software
