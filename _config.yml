@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "The blog of a man computer orchestra"
+title                    : "Computing as a way of life"
 title_separator          : "-"
 name                     : &name "Goyo Ambrosio"
 description              : &description "Scientific Computing, Data Science, Smart City, IoT, Big Data, Robotics, STEM, IT, Education, Innovation and more"
