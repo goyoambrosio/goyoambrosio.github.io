@@ -48,7 +48,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : znWze-SIKCL5WHEfXKHQg0T1ogIXpRAjoDfZ-65B_Qk"
+google_site_verification : "znWze-SIKCL5WHEfXKHQg0T1ogIXpRAjoDfZ-65B_Qk"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -213,17 +213,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-   enabled:
-     - categories
-     - tags
-   layouts:
-     category: archive-taxonomy
-     tag: archive-taxonomy
-   permalinks:
-     category: /categories/:name/
-     tag: /tags/:name/
-
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 # HTML Compression
 # - http://jch.penibelst.de/
