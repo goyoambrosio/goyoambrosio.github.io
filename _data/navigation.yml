@@ -3,6 +3,6 @@ main:
   - title: "About"
     url: /about/
   - title: "Posts by year"
-    url: /tags-archive/
+    url: /year-archive/
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
