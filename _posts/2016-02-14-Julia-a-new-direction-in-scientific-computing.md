@@ -3,7 +3,6 @@ title: "Julia: a new direction in scientific computing"
 related : true
 categories:
   - Info
-  - Post
 tags:
   - data science
   - HPC

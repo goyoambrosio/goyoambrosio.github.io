@@ -3,7 +3,6 @@ title: "Microsoft becomes R"
 related : true
 categories:
   - News
-  - Post
 tags: data science, language, microsoft, open, programming, R, statistical analysis
 ---
 
