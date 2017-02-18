@@ -230,10 +230,18 @@
       {% if author.vine %}
         <li>
           <a href="https://vine.co/u/{{ author.vine }}" itemprop="sameAs">
-            <i class="fa fa-fw fa-vine" aria-hidden="true"></i> Vine
+              <i class="fa fa-fw fa-vine" aria-hidden="true"></i> Vine
           </a>
         </li>
-      {% endif %}
+        {% endif %}
+
+        {% if author.flipboard %}
+        <li>
+            <a href="https://www.flipboard.com/{{ author.flickr }}" itemprop="sameAs">
+                <i class="fa fa-fw fa-flipboard" aria-hidden="true"></i> Flipboard
+            </a>
+        </li>
+        {% endif %}
 
       {% include author-profile-custom-links.html %}
     </ul>
