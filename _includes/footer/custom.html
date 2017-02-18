@@ -1,7 +1,47 @@
 <!-- start custom footer snippets -->
-<li>
-    <a href="http://goyo-ambrosio.pixels.com/" itemprop="sameAs">
-        <i class="fa fa-fw fa-shopping-cart" aria-hidden="true"></i> Buy my photos
-    </a>
-</li>
+<div class="page__footer-follow">
+    <ul class="social-icons">
+        {% if site.data.ui-text[site.locale].follow_label %}
+        <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+        {% endif %}
+        <li>
+            <a href="https://www.flipboard.com/@goyoac" itemprop="sameAs">
+                <i class="fa fa-fw fa-book" aria-hidden="true"></i> Flipboard
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.researchgate.net/profile/Gregorio_Ambrosio" itemprop="sameAs">
+                <i class="fa fa-fw fa-graduation-cap" aria-hidden="true"></i> ResearchGate
+            </a>
+        </li>
+
+        <li>
+            <a href="https://scholar.google.es/citations?user=GyGNWjwAAAAJ" itemprop="sameAs">
+                <i class="fa fa-fw fa-google" aria-hidden="true"></i> Google Scholar
+            </a>
+        </li>
+
+        <li>
+            <a href="https://500px.com/goyoambrosio" itemprop="sameAs">
+                <i class="fa fa-fw fa-500px" aria-hidden="true"></i> 500px
+            </a>
+        </li>
+
+        <li>
+            <a href="http://ambrosiophoto.com" itemprop="sameAs">
+                <i class="fa fa-fw fa-camera" aria-hidden="true"></i> Ambrosio Photography
+            </a>
+        </li>
+
+        <li>
+            <a href="http://goyo-ambrosio.pixels.com/" itemprop="sameAs">
+                <i class="fa fa-fw fa-shopping-cart" aria-hidden="true"></i> Buy my photos
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+
 <!-- end custom footer snippets -->
