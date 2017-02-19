@@ -7,7 +7,7 @@ modified: 2017-02-19
 
 <a data-flip-widget="mag" href="https://flipboard.com/@goyoac/scientific-computing-mgrdj0o4y">View my Flipboard Magazine.</a>
 <script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
-<p>
+
 <a data-flip-widget="mag" href="https://flipboard.com/@goyoac/big-data-science-39bm6tomy">View my Flipboard Magazine.</a>
 <script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
 <p>
