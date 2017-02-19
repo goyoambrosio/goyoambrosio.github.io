@@ -2,6 +2,8 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Magazines"
+    url: /magazines/
   - title: "Posts by year"
     url: /year-archive/
   - title: "Photography"
