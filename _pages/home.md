@@ -30,7 +30,3 @@ feature_row:
 intro:
   - excerpt: 'Follow me &nbsp; [<i class="fa fa-twitter"></i> @gambrosio](https://twitter.com/gambrosio){: .btn .btn--twitter}'
 ---
-
-# {% include feature_row id="intro" type="center" %}
-
-# {% include feature_row %}
