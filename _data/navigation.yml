@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "About"
+  - title: site.data.ui-text[site.locale].navigation_1
     url: /about/
   - title: "Magazines"
     url: /magazines/
