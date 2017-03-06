@@ -3,7 +3,10 @@ title: "How to update to kernel 4.10 or whatever in Ubuntu 16.04"
 related : true
 categories:
   - HowTo
-tags: ubuntu, kernel, install
+tags: 
+  - ubuntu
+  - kernel
+  - install
 ---
 
 The first question is whether it's worth upgrading to this version of the kernel,
