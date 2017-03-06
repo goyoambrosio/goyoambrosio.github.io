@@ -4,6 +4,7 @@ related : true
 categories:
   - HowTo
 tags: visual, studio, code, microsoft, ubuntu, install, update
+
 ---
 
 ![Image title](/assets/images/2017/03/VisualStudioCodeLogo.png){: .align-left}If you are getting in trouble while trying to install and/or update Visual Studio Code (*Version 1.10 is available while I'm writing this little post*) in Ubuntu 16.04 copy'n'paste next command in your favourite terminal
@@ -15,7 +16,3 @@ tags: visual, studio, code, microsoft, ubuntu, install, update
     sudo apt install code code-insiders
     
 You can get more info in [Visual Studio Code PPA](https://github.com/tagplus5/vscode-ppa) GitHub repository or [Running VS Code on Linux](https://code.visualstudio.com/docs/setup/linux#_installation) official Microsoft site.
-    
-
-
-p
