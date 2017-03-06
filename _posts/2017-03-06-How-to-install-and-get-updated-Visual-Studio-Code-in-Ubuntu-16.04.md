@@ -6,8 +6,7 @@ categories:
 tags: visual, studio, code, microsoft, ubuntu, install, update
 ---
 
-![Image title](/assets/images/2017/03/VisualStudioCodeLogo.png){: .align-left} Text
-If you are getting in trouble while trying to install and/or update Visual Studio Code (*Version 1.10 is available while I'm writing this little post*) in Ubuntu 16.04 copy'n'paste next command in your favourite terminal
+![Image title](/assets/images/2017/03/VisualStudioCodeLogo.png){: .align-left}If you are getting in trouble while trying to install and/or update Visual Studio Code (*Version 1.10 is available while I'm writing this little post*) in Ubuntu 16.04 copy'n'paste next command in your favourite terminal
 
     curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg && \
     sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg && \
@@ -19,3 +18,4 @@ You can get more info in [Visual Studio Code PPA](https://github.com/tagplus5/vs
     
 
 
+p
