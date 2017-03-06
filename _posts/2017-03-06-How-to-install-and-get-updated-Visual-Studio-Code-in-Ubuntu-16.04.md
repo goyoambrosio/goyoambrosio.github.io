@@ -3,8 +3,13 @@ title: "How to install and get updated Visual Studio Code in Ubuntu 16.04"
 related : true
 categories:
   - HowTo
-tags: visual, studio, code, microsoft, ubuntu, install, update
-
+tags: 
+  - visual studio
+  - code
+  - microsoft
+  - ubuntu
+  - install
+  - update
 ---
 
 ![Image title](/assets/images/2017/03/VisualStudioCodeLogo.png){: .align-left}If you are getting in trouble while trying to install and/or update Visual Studio Code (*Version 1.10 is available while I'm writing this little post*) in Ubuntu 16.04 copy'n'paste next command in your favourite terminal
