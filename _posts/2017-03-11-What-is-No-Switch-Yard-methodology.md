@@ -1,5 +1,5 @@
 ---
-title: "What is No Switch Yard methodology"
+title: "What is No Switch Yard (**NoSY**) methodology"
 related : true
 categories:
   - WhatIs
