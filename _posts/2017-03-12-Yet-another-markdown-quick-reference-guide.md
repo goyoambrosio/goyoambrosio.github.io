@@ -55,7 +55,7 @@ another [link][2].
 
     Logo: ![Alt](/assets/images/logo.png "Title")
 
-Logo: ![Alt](/assets/images/logo.png "Title")
+Logo: ![Alt](/assets/images/2017/03/goyo-site-logo.jpg "Title")
 
 *The “Alt” text (alternative text) makes images accessible to visually impaired*
 
@@ -67,13 +67,14 @@ Logo: ![Alt](/assets/images/logo.png "Title")
 
 Logo: ![Alt][3]
 
-[3]: /assets/images/logo.png "Title"
+[3]: /assets/images/2017/03/goyo-site-logo.jpg "Title"
 
 ## Linked images
 
     Linked logo: [![alt text](/assets/images/logo.png)](http://example.com/ "Title")
 
-Linked logo: [![alt text](/assets/images/logo.png)](http://example.com/ "Title")
+Linked logo: [![alt text](/assets/images/2017/03/goyo-site-logo.jpg)](http://example.com/ "Title")
+
 
 ## Footnotes
 
