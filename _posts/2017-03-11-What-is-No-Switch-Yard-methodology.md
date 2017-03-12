@@ -40,7 +40,7 @@ This workflow has the following advantages relative to always working on the mas
   clarity.
 
 This workflow is heavely used with [ROOT](https://root.cern.ch/) projects at
-CERN. Root is a modular scientific software framework. It provides all the
+[CERN](https://home.cern/). Root is a modular scientific software framework. It provides all the
 functionalities needed to deal with big data processing, statistical analysis,
 visualisation and storage. It is mainly written in C++ but integrated with other
 languages such as Python and R.[³]
