@@ -329,7 +329,7 @@ Hyphens
 
 Asterisks
 
-___P
+___
 
 Underscores
 
