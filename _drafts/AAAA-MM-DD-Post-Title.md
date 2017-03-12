@@ -2,9 +2,9 @@
 title: "Post title"
 related : true
 categories:
-  - Noticia
-  - Proyecto
-  - Utilidad
+  - category 1
+  - category 2
+  - category 3
 tags: 
   - tag1
   - tag2
@@ -17,3 +17,6 @@ tags:
 Text Content {: style="text-align: justify;"}
 
 {% include video id="2kkJb7VpwB8" provider="youtube" %
+goyo@goyo-Z68XP-UD4:~/Git/goyoambrosio.github.io/_drafts$ 
+goyo@goyo-Z68XP-UD4:~/Git/goyoambrosio.github.io/_drafts$ 
+goyo@goyo-Z68XP-UD4:~/Git/goyoambrosio.github.io/_drafts$ 
