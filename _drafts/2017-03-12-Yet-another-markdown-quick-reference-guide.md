@@ -75,6 +75,7 @@ Logo: ![Alt][3]
 
 Linked logo: [![alt text](/assets/images/2017/03/goyo-site-logo.jpg)](http://example.com/ "Title")
 
+
 ## Footnotes
 
     This is a footnote [^1] example
