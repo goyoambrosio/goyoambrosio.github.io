@@ -45,6 +45,12 @@ functionalities needed to deal with big data processing, statistical analysis,
 visualisation and storage. It is mainly written in C++ but integrated with other
 languages such as Python and R.[³]
 
+More info:
+
+<https://scraperwiki.com/2013/10/git/>
+<https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/GitTipsAndTricks>
+<https://root.cern.ch/suggested-work-flow-distributed-projects-nosy>
+
 [¹]: <https://scraperwiki.com/2013/10/git/>
 [²]: <https://cdcvs.fnal.gov/redmine/projects/cet-is-public/wiki/GitTipsAndTricks>
 [³]: <https://root.cern.ch/suggested-work-flow-distributed-projects-nosy>
