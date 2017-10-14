@@ -49,4 +49,6 @@ Next add the schedule scripts:
 Repeat the same to schedule the enabling script (i.e. `CronEnableWLAN` starting at `09:00:00` with an interval of `1d 00:00:00`)
 
 
-Now your Mikrotik router will turn off and on at your desired times. Good rest !
+Now your Mikrotik router will turn off and on at your desired times. 
+
+Good rest !
