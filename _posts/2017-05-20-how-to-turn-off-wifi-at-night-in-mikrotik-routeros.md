@@ -11,6 +11,8 @@ looking for a healthy rest time, here is how to do that on Mikrotik RouterOS.
 
 ![CRS125 MikroTik's popular router](/assets/images/2017/05/CRS125.png){: .align-left} 
 
+<img src="/assets/images/2017/05/CRS125.png" width="48">
+
 To program a Mikrotik router for turning off and on WiFi you must to use scripting and ascheduling capabilities fo RouterOS.
 
 The command you must to run to turn off WiFi is:
