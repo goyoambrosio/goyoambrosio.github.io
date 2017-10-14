@@ -2,8 +2,13 @@
 title: "Turning off WiFi at night on Mikrotik RouterOS"
 related : true
 categories:
-  - Utilidad
-tags: RouterOS, Mikrotik, WiFi, script, schedule
+  - HowTo
+tags: 
+  - RouterOS
+  - Mikrotik
+  - WiFi
+  - script
+  - schedule
 ---
 
 If you think that you must to turn off WiFi at night due to security reasons or
