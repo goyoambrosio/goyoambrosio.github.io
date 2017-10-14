@@ -7,7 +7,7 @@ tags: RouterOS, Mikrotik, WiFi, script, schedule
 ---
 
 If you think that you must to turn off WiFi at night due to security reasons or
-looking for a healthy rest time, here is how to do that on Mikrotik RouterOS.<img src="/assets/images/2017/05/CRS125.png" width="200" align="right">
+looking for a healthy rest time, here is how to do that on Mikrotik RouterOS.
 
 ![CRS125 MikroTik's popular router](/assets/images/2017/05/CRS125.png){: .align-left} 
 
