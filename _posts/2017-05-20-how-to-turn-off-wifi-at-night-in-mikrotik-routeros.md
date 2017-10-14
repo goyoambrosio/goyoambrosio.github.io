@@ -16,7 +16,7 @@ looking for a healthy rest time, here is how to do that on Mikrotik RouterOS.
 
 ![CRS125 MikroTik's popular router](/assets/images/2017/05/CRS125.png){: .align-left} 
 
-To program a Mikrotik router for turning off and on WiFi you must to use scripting and ascheduling capabilities fo RouterOS.
+To program a Mikrotik router for turning off and on WiFi you must to use scripting and scheduling capabilities fo RouterOS.
 
 The command you must to run to turn off WiFi is:
 
@@ -39,7 +39,7 @@ Now create a similar `EnableWLAN` script with the opposite command:
 Next add the schedule scripts:
 
 1. `Open System` -> `Scheduler` window
-2. Press `Add` button to open the Scheduler window
+2. Press `Add` button to open the `Scheduler` window
   - Type some meaningful name for the scheduled task like `CronDisableWLAN` (can be the same as the script's)
   - Type the name of your script, `DisableWLAN`, into the `On Event` text area 
   - Select the `start date` (i.e today), `start time` (`hh:mm:ss` format, i.e. `23:00:00`) and the `interval` for repeating the action like `1d 00:00:00`
@@ -47,7 +47,6 @@ Next add the schedule scripts:
   - Save the schedule with `Ok` button
 
 Repeat the same to schedule the enabling script (i.e. `CronEnableWLAN` starting at `09:00:00` with an interval of `1d 00:00:00`)
-
 
 Now your Mikrotik router will turn off and on at your desired times. 
 
