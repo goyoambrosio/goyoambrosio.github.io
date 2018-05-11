@@ -2,7 +2,7 @@
 title: "What is Slidify"
 related : true
 categories:
-  -Tutorial 
+  - Tutorial 
 tags:
   - Slidify
   - HTML5
@@ -47,12 +47,10 @@ Mustache specification. Mustache is a logicless templating language, meaning
 that no programming source code can be used in your templates.
 
 There are tons of tutorials on slidify. In my case, I focused on the
-installation process as well as providing information that helps reduce common
-mistakes that are made during your initial learning. As best example to learn I
-have written [a Slidify tutorial that you can download and
-modify](http://goyoambrosio.com/SlidifyTutorial/). Enjoy it.
+installation process as well as providing information and examples that helps
+reduce common mistakes that are made during your initial learning. As best
+example to learn I have written [a Slidify tutorial that you can download and
+modify](http://goyoambrosio.com/SlidifyTutorial/).
 
-
-{: style="text-align: justify;"}
-
+Enjoy it.
 
