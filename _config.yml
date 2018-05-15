@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dark" # "default" "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "en"
-title                    : &goyo_name "Goyo Ambrosio"
+title                    : "Goyo Ambrosio"
 title_separator          : "-"
-name                     : &name *goyo_name
-description              : &description "Scientific Computing, Data Science, Smart City, IoT, Big Data, Robotics, STEM, IT, Education, Innovation and more"
+name                     : &name "Goyo Ambrosio"
+description              : &description "Computer Science, Text Computing, Scientific Computing, Data Science, Smart City, IoT, Big Data, Robotics, STEM, IT, Education, Innovation and more"
 url                      : https://goyoambrosio.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "goyoambrosio/goyoambrosio.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
