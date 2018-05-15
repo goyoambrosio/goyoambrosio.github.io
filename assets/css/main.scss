@@ -7,7 +7,9 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/*** BEGIN GOYO ***/
 $head-color: #699ea0 !default;
+$h1-color: #ffffff !default;
 
 .archive__item-title a {
     color: $head-color;
@@ -21,7 +23,6 @@ $head-color: #699ea0 !default;
 
 }
 
-
 .page__content a {
     color: $head-color;
     text-decoration : none;
@@ -34,8 +35,7 @@ $head-color: #699ea0 !default;
 
 }
 
-
 h1 {
-    color: $head-color;
+    color: $h1-color;
 }
-
+/*** END GOYO ***/
