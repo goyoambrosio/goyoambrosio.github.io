@@ -7,8 +7,10 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+$head-color: #699ea0 !default;
+
 .archive__item-title a {
-    color: #699ea0;
+    color: $head-color;
     text-decoration : none;
 
     &:hover {
@@ -18,3 +20,8 @@
 
 
 }
+
+.page-title h1 {
+    color: $head-color;
+}
+
