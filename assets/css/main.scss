@@ -21,7 +21,21 @@ $head-color: #699ea0 !default;
 
 }
 
-.page-title h1 {
+
+.page__content a {
+    color: $head-color;
+    text-decoration : none;
+
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: underline;
+    }
+
+
+}
+
+
+.page__title h1 {
     color: $head-color;
 }
 
