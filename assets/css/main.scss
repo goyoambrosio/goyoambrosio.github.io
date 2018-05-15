@@ -10,4 +10,11 @@
 .archive__item-title a {
     color: #699ea0;
     text-decoration : none;
+
+    &:hover {
+        color: $link-color-hover;
+        text-decoration: underline;
+    }
+
+
 }
