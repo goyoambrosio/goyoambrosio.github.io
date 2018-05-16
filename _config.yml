@@ -241,8 +241,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-algolia
-
+ 
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -250,8 +249,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-algolia
-
+ 
 
 # Archives
 #  Type
