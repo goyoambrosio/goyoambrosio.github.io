@@ -1,6 +1,8 @@
 ---
 title: "Post title"
 related : true
+header:
+  teaser: "unsplash-gallery-image-2-th.jpg"
 categories:
   - category 1
   - category 2
