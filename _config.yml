@@ -44,7 +44,7 @@ staticman:
   commitMessage          : # "New comment"
   filename               : # comment-{@timestamp}
   format                 : # "yml"
-  moderation             : # true
+  moderation             :  false # true
   path                   : # "_data/comments/{options.slug}"
   requiredFields         : # ['name', 'email', 'message']
   transforms:
@@ -54,7 +54,15 @@ staticman:
       type               : # "date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-        
+  # reCaptcha
+  # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
+  reCaptcha:
+    enabled: FALSE
+    siteKey: "6LfmhVkUAAAAAFTr2s60vRWJoOxAKWYo6Gz_pV7-"
+    # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
+    # For more information, https://staticman.net/docs/encryption
+    secret: "ux2aifJFGY1IxoNdHeQeK01wxs6o4qBfbmTh52Sl/C47nr5xEn9KeoagAsyg71rbqEjgcCjiavWuS6JyLF9yVA6jTU5+lYZcEZFQf+LvgkX9z5ukHRA92UdmV9FQ39wrdlD6BWB6EYS1aE/M1xKlrgCvsA06C9gydASHSgTZGs0="
+
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
