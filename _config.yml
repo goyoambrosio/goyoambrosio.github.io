@@ -19,11 +19,11 @@ locale                   : "en"
 title                    : "Goyo Ambrosio"
 title_separator          : "-"
 name                     : &name "GOYO AMBROSIO"
-description              : &description "Computer Science, Text Computing, Scientific Computing, Data Science, Smart City, IoT, Big Data, Robotics, STEM, IT, Education, Innovation and more"
+description              : &description "From text editing to computing and other related stuff"
 url                      : https://goyoambrosio.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "goyoambrosio/goyoambrosio.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : /assets/images/home1_1600x586.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : /assets/images/site/four-mailboxes.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -53,8 +53,25 @@ staticman:
       type               : "date"
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+
+reCaptcha:
+  siteKey                : "6LfmhVkUAAAAAFTr2s60vRWJoOxAKWYo6Gz_pV7-"
+  secret                 : "ux2aifJFGY1IxoNdHeQeK01wxs6o4qBfbmTh52Sl/C47nr5xEn9KeoagAsyg71rbqEjgcCjiavWuS6JyLF9yVA6jTU5+lYZcEZFQf+LvgkX9z5ukHRA92UdmV9FQ39wrdlD6BWB6EYS1aE/M1xKlrgCvsA06C9gydASHSgTZGs0="
+
+
 atom_feed:
   path                   : # blank (default) uses feed.xml
+
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : algolia # lunr (default), algolia
+algolia:
+  application_id         : BNMNFE5GR9 # YOUR_APPLICATION_ID
+  index_name             : goyoambrosio # YOUR_INDEX_NAME
+  search_only_api_key    : 81f88874a3a4c063456aff6a326b7b60 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true # true (default), false
+  files_to_exclude:
+    - _drafts/*
 
 # SEO Related
 google_site_verification : "znWze-SIKCL5WHEfXKHQg0T1ogIXpRAjoDfZ-65B_Qk"
@@ -83,29 +100,31 @@ social:
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-180224-20
+    tracking_id          : UA-180224-20 # Replace this with your ID, or delete
+    anonymize_ip         : true
 
 
 # Site Author
 author:
-  name             : *name
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : /assets/images/goyo-ambrosio.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Vocational and passionate computer scientist"
   location         : "Málaga, SPAIN"
   email            :
-  uri              : "https://goyoambrosio.github.io"
+  uri              : "https://goyoambrosio.com"
+  home             : "https://goyoambrosio.com"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         : *facebook
   foursquare       :
-  github           : goyoambrosio
+  github           : "goyoambrosio"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : goyoambrosio
+  linkedin         : "goyoambrosio"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
