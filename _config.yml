@@ -46,7 +46,7 @@ staticman:
   format                 : # "yml"
   moderation             : # true
   path                   : # "_data/comments/{options.slug}"
-  requiredFields         : ['name'] # ['name', 'email', 'message']
+  requiredFields         : # ['name', 'email', 'message']
   transforms:
     email                : # "md5"
   generatedFields:
@@ -54,6 +54,7 @@ staticman:
       type               : # "date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+
   # reCaptcha
   # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   reCaptcha:
