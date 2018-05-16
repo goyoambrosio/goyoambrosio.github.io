@@ -27,7 +27,7 @@ teaser                   : /assets/images/site/four-mailboxes.jpg # path of fall
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
+  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -38,7 +38,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
     
-staticman_v2:
+staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : "master"
   commitMessage          : # "New comment"
