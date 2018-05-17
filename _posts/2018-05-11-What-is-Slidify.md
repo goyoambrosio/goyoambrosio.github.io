@@ -2,12 +2,12 @@
 title: "What is Slidify"
 header:
   overlay_color: "#000000"
-  overlay_filter: "0.8"
-  overlay_image: "/assets/images/2018/05/SlidifyBanner.jpg"
+  overlay_filter: "0.6"
+  overlay_image: "/assets/images/2018/05/SlidifyBanner_bn.jpg"
   caption: "Photo credit: [**Ramnath Vaidyanathan**](https://github.com/ramnathv/slidify)"
   image_description: "[Slidify](http://slidify.org/) helps create, customize and share, elegant, dynamic and interactive [HTML5](https://en.wikipedia.org/wiki/HTML5) slides"
   teaser: "/assets/images/2018/05/SlidifyBanner.jpg"
-  show_overlay_excerpt: 
+  show_overlay_excerpt: # true 
 categories:
   - Tutorial 
 tags:
@@ -19,6 +19,7 @@ tags:
   - Layout
   - Knitr
   - Markdown
+last_modified_at: 2018-02-19T08:06:00-05:00  
 ---
 
 
