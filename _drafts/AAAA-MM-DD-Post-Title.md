@@ -15,7 +15,7 @@ header:
   caption: "Photo credit: [**<Credit>**](<url>)"
   image_description: "<markdown_text>"
   teaser: "/assets/images/AAAA/MM/<image_file>"
-  og_image: "/assets/images/AAAA/MM/<image_file>" # OpenGraph
+  og_image: "/assets/images/AAAA/MM/<image_file>" # OpenGraph override.
   show_overlay_excerpt: # true
   cta_label: "More Info"
   cta_url: "<url>"
