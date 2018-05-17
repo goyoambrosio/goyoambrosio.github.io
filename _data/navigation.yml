@@ -1,12 +1,14 @@
 # main links links
 main:
-  - title: "About"
-    url: /about/
+  - title: "Home"
+    url: /
   - title: "Magazines"
     url: /magazines/
   - title: "Posts by year"
     url: /year-archive/
   - title: "Photography"
     url: http://ambrosiophoto.com
+  - title: "About"
+    url: /about/
 #  - title: "Terms &amp; Privacy Policy"
 #    url: /terms/
