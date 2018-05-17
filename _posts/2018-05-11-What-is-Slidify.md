@@ -1,6 +1,10 @@
 ---
 title: "What is Slidify"
 related : true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/2018/05/SlidifyCover.png
 categories:
   - Tutorial 
 tags:
