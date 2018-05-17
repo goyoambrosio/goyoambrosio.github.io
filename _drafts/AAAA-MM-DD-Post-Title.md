@@ -1,10 +1,13 @@
 ---
 title: "Post title"
 layout: # single
+author_profile: # true
 read_time: # true
 comments: # true
 share: # true
 related: #true
+excerpt: # Auto-generated page excerpt is added to the overlay text or can be overridden here.
+excerpt_separator: "<!--more-->"
 header:
   overlay_color: "#000000" 
   overlay_filter: "0.5" # 1.0 Darkest
@@ -13,7 +16,8 @@ header:
   image_description: "<markdown_text>"
   teaser: "/assets/images/AAAA/MM/<image_file>"
   show_overlay_excerpt: # true
-  
+  cta_label: "More Info"
+  cta_url: "<url>"
 categories:
   - category 1
   - category 2
@@ -22,6 +26,7 @@ tags:
   - tag1
   - tag2
   - tag3
+last_modified_at: YYYY-MM-DD
 ---
 
 ![Image title](/assets/images/AAAA/MM/filename){: .align-left} Text
