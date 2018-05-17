@@ -3,9 +3,8 @@ title: "What is Slidify"
 header:
 show_overlay_excerpt: false
 image: /assets/images/2018/05/SlidifyCover.png
-#overlay_color: "#000"
-#overlay_filter: "0.5"
-#overlay_image: /assets/images/2018/05/SlidifyCover.png
+caption: "Photo credit: [**Ramnath Vaidyanathan**](Ramnath Vaidyanathan)"
+image_description: "[Slidify](http://slidify.org/) helps create, customize and share, elegant, dynamic and interactive [HTML5](https://en.wikipedia.org/wiki/HTML5) slides"
 categories:
   - Tutorial 
 tags:
