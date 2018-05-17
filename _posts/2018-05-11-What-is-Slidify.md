@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "What is Slidify"
 header:
   overlay_color: "#000000"
