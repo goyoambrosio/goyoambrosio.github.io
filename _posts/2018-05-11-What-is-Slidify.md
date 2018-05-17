@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/2018/05/SlidifyCover.png
   caption: "Photo credit: [**Ramnath Vaidyanathan**](https://github.com/ramnathv/slidify)"
   image_description: "[Slidify](http://slidify.org/) helps create, customize and share, elegant, dynamic and interactive [HTML5](https://en.wikipedia.org/wiki/HTML5) slides"
-  teaser: /assets/images/2018/05/SlidifyCover.png
+  teaser: /assets/images/2018/05/SlidifyCoverBanner.jpg
   show_overlay_excerpt: 
 categories:
   - Tutorial 
