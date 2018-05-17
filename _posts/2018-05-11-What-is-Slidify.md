@@ -1,7 +1,6 @@
 ---
 title: "What is Slidify"
 header:
-  show_overlay_excerpt: false
   overlay_color: "#000000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/2018/05/SlidifyCover.png
