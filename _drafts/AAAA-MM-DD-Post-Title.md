@@ -1,8 +1,18 @@
 ---
 title: "Post title"
-related : true
+layout: # single
+read_time: # true
+comments: # true
+share: # true
+related: #true
 header:
-  teaser: "unsplash-gallery-image-2-th.jpg"
+  overlay_color: "#000000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/AAAA/MM/<image_file>
+  caption: "Photo credit: [**<Credit>**](<url>)"
+  image_description: "<markdown_text>"
+  teaser: /assets/images/AAAA/MM/<image_file>
+  show_overlay_excerpt: # true
 categories:
   - category 1
   - category 2

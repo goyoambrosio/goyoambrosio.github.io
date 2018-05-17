@@ -6,6 +6,8 @@ header:
   overlay_image: /assets/images/2018/05/SlidifyCover.png
   caption: "Photo credit: [**Ramnath Vaidyanathan**](https://github.com/ramnathv/slidify)"
   image_description: "[Slidify](http://slidify.org/) helps create, customize and share, elegant, dynamic and interactive [HTML5](https://en.wikipedia.org/wiki/HTML5) slides"
+  teaser: /assets/images/2018/05/SlidifyCover.png
+  show_overlay_excerpt: 
 categories:
   - Tutorial 
 tags:
@@ -21,8 +23,9 @@ tags:
 
 
 [Slidify](http://slidify.org/) helps create, customize and share, elegant,
-dynamic and interactive [HTML5](https://en.wikipedia.org/wiki/HTML5) slides. You
-can view slidify presentations with any web browser and share them easily on
+dynamic and interactive [HTML5](https://en.wikipedia.org/wiki/HTML5) slides.
+
+You can view slidify presentations with any web browser and share them easily on
 [Github](https://github.com/), [Dropbox](https://www.dropbox.com/), or your own
 website.
 
