@@ -7,7 +7,7 @@ header:
   caption: "Photo credit: [**Ramnath Vaidyanathan**](https://github.com/ramnathv/slidify)"
   image_description: "[Slidify](http://slidify.org/) helps create, customize and share, elegant, dynamic and interactive [HTML5](https://en.wikipedia.org/wiki/HTML5) slides"
   teaser: "/assets/images/2018/05/SlidifyBanner.jpg"
-  cta_label: "<i class='material-icons'></i>Tutorial"
+  cta_label: "<i class='material-icons' style='font-size:36px'></i>Tutorial"
   cta_url: "http://goyoambrosio.com/SlidifyTutorial/"
 categories:
   - Tutorial 
