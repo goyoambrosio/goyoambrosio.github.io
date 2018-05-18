@@ -52,7 +52,7 @@ allows embedded code chunks and mathematical formulas.
 
 Slidify uses [whisker](https://github.com/edwindj/whisker) to render the final
 html by passing the parsed data to the layout file. Whisker is a
-[{{Mustache}}](http://mustache.github.io/) implementation in R confirming to the
+[Mustache](http://mustache.github.io/) implementation in R confirming to the
 Mustache specification. Mustache is a logicless templating language, meaning
 that no programming source code can be used in your templates.
 
