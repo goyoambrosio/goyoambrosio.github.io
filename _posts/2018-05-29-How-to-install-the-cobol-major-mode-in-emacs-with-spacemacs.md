@@ -1,5 +1,5 @@
 ---
-title: "How to install Cobol major mode in Emacs with Spacemacs"
+title: "How to install COBOL major mode in Emacs with Spacemacs"
 layout: # single
 author_profile: # true
 read_time: # true
@@ -10,7 +10,7 @@ excerpt: "" # Auto-generated page excerpt is added to the overlay text or can be
 excerpt_separator: "<!--more-->"
 header:
   overlay_color: "#000000" 
-  overlay_filter: "0.5" # 1.0 Darkest
+  overlay_filter: "0.7" # 1.0 Darkest
   overlay_image: "/assets/images/2018/05/Cobol-Punch-Card.jpg"
   image_description: "Cobol punch card"
 categories:
@@ -92,7 +92,7 @@ install a package that provide us with that functionality.
 
 Spacemacs includes a good set of configuration layer for the most common
 packages. These layers are stacked on top of each other to achieve a custom
-configuration. By default Spacemacs uses a dotfile called `~/.spacemacs` to
+configuration. By default Spacemacs uses a dotfile called `.spacemacs` to
 control which layers to load. Within this file you can also configure certain
 features. However there are packages not included as configuration layers. That
 is the case of the COBOL major mode.
@@ -128,7 +128,6 @@ you should place your code here."
   (add-to-list 'auto-mode-alist '("\\.cob" . cobol-mode))
 
   )
-
 ```
 
 An alternative that does not depend on the file extension consists in is to
