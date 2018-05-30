@@ -88,7 +88,7 @@ text. Each buffer has exactly one major mode at a time which determines the
 editing behavior of Emacs while that buffer is current. Major modes are
 installed on Emacs as other packages.
 
-Our goal is to use a major mode to write Cobol code in Emacs, so we must
+Our goal is to use a major mode to write COBOL code in Emacs, so we must
 install a package that provide us with that functionality.
 
 Spacemacs includes a good set of configuration layer for the most common
