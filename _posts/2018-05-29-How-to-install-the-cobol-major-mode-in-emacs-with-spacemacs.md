@@ -1,12 +1,12 @@
 ---
-title: "How to nstall Cobol major mode in Emacs with Spacemacs"
+title: "How to install Cobol major mode in Emacs with Spacemacs"
 layout: # single
 author_profile: # true
 read_time: # true
 comments: # true
 share: # true
 related: #true
-excerpt: false # Auto-generated page excerpt is added to the overlay text or can be overridden here.
+excerpt: "" # Auto-generated page excerpt is added to the overlay text or can be overridden here.
 excerpt_separator: "<!--more-->"
 header:
   overlay_color: "#000000" 
