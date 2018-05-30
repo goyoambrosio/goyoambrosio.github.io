@@ -13,6 +13,7 @@ header:
   overlay_filter: "0.7" # 1.0 Darkest
   overlay_image: "/assets/images/2018/05/Cobol-Punch-Card.jpg"
   image_description: "Cobol punch card"
+  teaser: "/assets/images/2018/05/Cobol-Punch-Card.jpg"
 categories:
   - HowTo
 tags: 
