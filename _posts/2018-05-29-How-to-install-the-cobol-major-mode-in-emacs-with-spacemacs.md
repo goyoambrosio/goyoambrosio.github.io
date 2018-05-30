@@ -1,17 +1,17 @@
 ---
-title: "How to set up Cobol major mode in Emacs with Spacemacs"
+title: "How to nstall Cobol major mode in Emacs with Spacemacs"
 layout: # single
 author_profile: # true
 read_time: # true
 comments: # true
 share: # true
 related: #true
-excerpt: # Auto-generated page excerpt is added to the overlay text or can be overridden here.
+excerpt: false # Auto-generated page excerpt is added to the overlay text or can be overridden here.
 excerpt_separator: "<!--more-->"
 header:
   overlay_color: "#000000" 
   overlay_filter: "0.5" # 1.0 Darkest
-  overlay_image: "/assets/images/2018/M05/Cobol-Punch-Card.jpg"
+  overlay_image: "/assets/images/2018/05/Cobol-Punch-Card.jpg"
   image_description: "Cobol punch card"
 categories:
   - HowTo
