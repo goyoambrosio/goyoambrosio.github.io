@@ -6,11 +6,11 @@ read_time: # true
 comments: # true
 share: # true
 related: #true
-excerpt: "" # Auto-generated page excerpt is added to the overlay text or can be overridden here.
+excerpt: # Auto-generated page excerpt is added to the overlay text or can be overridden here.
 excerpt_separator: "<!--more-->"
 header:
   overlay_color: "#000000" 
-  overlay_filter: "0.5" # 1.0 Darkest
+  overlay_filter: "0.7" # 1.0 Darkest
   overlay_image: "/assets/images/2018/06/simpson-utf-8.jpg"
   caption: "Photo credit: [**perl.com**](http://perl.com)"
   image_description: "Simpson studies UTF-8"
@@ -41,21 +41,25 @@ the last part of the encoding name:
 
 To describe the special character that will be used at the end of lines:
 
-`-mac` : CR (0D) the standard line delimiter with MacOS (until OS X)
-`-unix`: LF (0A) the standard delimiter for unice systems (so the BSD-based Mac OS X)
-`-dos` : CR+LF (0D 0A) the delimiter for DOS / Windows
+- `-mac` : CR (0D) the standard line delimiter with MacOS (until OS X)
+
+- `-unix`: LF (0A) the standard delimiter for unice systems (so the BSD-based Mac OS X)
+
+- `-dos` : CR+LF (0D 0A) the delimiter for DOS / Windows
 
 some additional encodings parameters include:
 
-`-emacs`: support for encoding all Emacs characters (including non Unicode)
-`-with-signature`: force the usage of the BOM (Byte Order Mark)
-`-auto`: autodetect the BOM
+- `-emacs`: support for encoding all Emacs characters (including non Unicode)
+
+- `-with-signature`: force the usage of the BOM (Byte Order Mark)
+
+- `-auto`: autodetect the BOM
 
 You can combine the different possibilities through the mode name as in the following example
 
 e.g. `-*- coding: utf-8-with-signature-unix -*-`.
 
-#### Byte Order Mark (BOM) ####
+## Byte Order Mark (BOM) ##
 
 Byte Order Mark is a special signature defined by UTF standard and placed at the
 beginning of text files to specify if it is UTF encoded. Basically there are three
@@ -129,7 +133,7 @@ for all files, processes and buffers:
 
 **Important**, you could always try `hexl-mode` to see how exactly the file is stored.
 
-#### Things you can do in Linux ####
+## Things you can do in Linux ##
 
 In Linux you can check the encoding of a file using the `file` command:
 
@@ -167,7 +171,7 @@ To list all known coded character sets, run the command below:
 $ iconv -l
 ```
 
-#### More info ####
+## More info ##
 
 [UTF-8 for the
 impatient](http://www.skybert.net/craftsmanship/utf-8-for-the-impatient/)
