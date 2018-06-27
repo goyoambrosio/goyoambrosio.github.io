@@ -227,7 +227,7 @@ our DNS related lack of anonymity.
 
 We begin identifying out link number getting information through the command `systemd-resolve --status`:
 
-``` shellsession
+``` shell
 $ systemd-resolve --status
 Global
 
@@ -246,7 +246,7 @@ In this example, the link number of the connection over which the VPN (`ppp0`) i
 
 To get only the number a more customized command could be runned:
 
-``` shellsession
+``` shell
 $ systemd-resolve --status | grep ppp0 | sed 's/.*Link \([0-9]\+\).*/\1/'
 3
 ```
@@ -258,20 +258,20 @@ network interface index plus an array of domains, each with a boolean parameter
 indicating whether the specified domain shall be used as search domain (false),
 or just as routing domain (true). Continuing with the example:
 
-``` shellsession
-busctl call org.freedesktop.resolve1 /org/freedesktop/resolve1 org.freedesktop.resolve1.Manager SetLinkDomains 'ia(sb)' 3 . true
+``` shell
+$ busctl call org.freedesktop.resolve1 /org/freedesktop/resolve1 org.freedesktop.resolve1.Manager SetLinkDomains 'ia(sb)' 3 . true
 ```
 
 To check the action success:
 
-``` shellsession
+``` shell
 $ busctl call org.freedesktop.resolve1 /org/freedesktop/resolve1 org.freedesktop.resolve1.Manager GetLink 'i' 3 
 o "/org/freedesktop/resolve1/link/_33"
 ```
 
 Run again the command `systemd-resolve --status` to observe that DNS Domain is now set to `~.`:
 
-``` shellsession
+``` shell
 $ systemd-resolve --status
 Global
 
@@ -342,13 +342,13 @@ connection changes (up, down, preup, predown).
 Scripts must be owned by root, otherwise the dispatcher will not execute them.
 For added security, you must set group ownership to root as well:
 
-``` shellsession
+``` shell
 $ chown root:root /etc/NetworkManager/dispatcher.d/10-script
 ```
 
 and set the correct permissions:
 
-``` shellsession
+``` shell
 $ chmod 755 /etc/NetworkManager/dispatcher.d/10-script
 ```
 
@@ -426,10 +426,10 @@ case "$STATUS" in
 Write a file with the previous code that is called, for example, `10-vpn-up` and
 place it in the `/etc/NetworkManager/dispatcher.d/` directory:
 
-``` shellsession
-sudo vim /etc/NetworkManager/dispatcher.d/10-vpn-up
-sudo chown root:root /etc/NetworkManager/dispatcher.d/10-vpn-up
-sudo chmod 755 /etc/NetworkManager/dispatcher.d/10-vpn-up
+``` shell
+$ sudo vim /etc/NetworkManager/dispatcher.d/10-vpn-up
+$ sudo chown root:root /etc/NetworkManager/dispatcher.d/10-vpn-up
+$ sudo chmod 755 /etc/NetworkManager/dispatcher.d/10-vpn-up
 ```
 
 This script will be executed by `NetworkManager` every time there was a
