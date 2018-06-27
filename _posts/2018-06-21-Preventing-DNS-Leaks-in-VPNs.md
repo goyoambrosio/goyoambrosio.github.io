@@ -1,4 +1,4 @@
---
+---
 title: "Preventing DNS leaks in VPNs"
 layout: # single
 author_profile: # true
@@ -32,6 +32,7 @@ tags:
   - resolv.conf
 last_modified_at: 2018-06-21
 ---
+
 A DNS leak is a problem with the network configuration that results in loss of
 privacy by sending DNS queries over insecure links instead of using the VPN
 connection.
