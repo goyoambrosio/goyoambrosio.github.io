@@ -7,7 +7,7 @@ comments: # true
 share: # true
 related: #true
 excerpt: # Auto-generated page excerpt is added to the overlay text or can be overridden here.
-excerpt_separator: "<!--more-->"
+excerpt_separator: # "<!--more-->"
 header:
   overlay_color: "#000000" 
   overlay_filter: "0.6" # 1.0 Darkest
@@ -36,8 +36,6 @@ last_modified_at: 2018-06-21
 There are different ways to fix DNS leaks depending on your initial system
 configuration. A common situation, as occurs in Ubuntu 18.04, is when your
 system uses `systemd-resolved` as the network name resolution service.
-
-<!--more-->
 
 A virtual private network (VPN) extends a private network across a public
 network, and enables users to send and receive data across shared or public
@@ -68,11 +66,6 @@ privacy by sending DNS queries over insecure links instead of using the VPN
 connection. Websites exist to allow testing to determine whether a DNS leak is
 occurring, including [dnsleaktest](https://www.dnsleaktest.com),
 [ExpressVPN](https://www.expressvpn.com/dns-leak-test), etc.
-
-There are different ways to fix DNS leaks depending on your initial system
-configuration. A common situation is when your system uses `systemd-resolved` as
-the network name resolution service. In Ubuntu 17.10 or 18.04 the default DNS
-resolver is now `systemd-resolved`.
 
 ## systemd-resolved ##
 
