@@ -11,10 +11,10 @@ excerpt_separator: "<!--more-->"
 header:
   overlay_color: "#000000" 
   overlay_filter: "0.6" # 1.0 Darkest
-  overlay_image: "/assets/images/2018/06/DNS.jpg"
+  overlay_image: "/assets/images/2018/06/DNS.jpeg"
   caption: # "Photo credit: [**Avira Blog**](https://blog.avira.com/dont-let-your-dns-leak/)"
   image_description: "DNS leaks"
-  teaser: "/assets/images/2018/06/DNS.jpg"
+  teaser: "/assets/images/2018/06/DNS.jpeg"
   show_overlay_excerpt: # true
 categories:
   - tutorial
