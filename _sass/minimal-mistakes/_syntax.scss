@@ -17,12 +17,13 @@ figure.highlight {
   pre.highlight {
     margin: 0;
     padding: 1em;
+    font-size: $type-size-8;
   }
 }
 
 .highlight table {
   margin-bottom: 0;
-  font-size: $type-size-8;
+  font-size: 1em;
   border: 0;
 
   td {
