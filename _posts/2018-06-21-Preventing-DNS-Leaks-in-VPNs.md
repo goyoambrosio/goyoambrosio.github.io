@@ -1,6 +1,7 @@
 ---
 title: "Preventing DNS leaks in VPNs"
 layout: # single
+classes: wide
 author_profile: # true
 read_time: # true
 comments: # true
@@ -36,6 +37,8 @@ last_modified_at: 2018-06-21
 There are different ways to fix DNS leaks depending on your initial system
 configuration. A common situation, as occurs in Ubuntu 18.04, is when your
 system uses `systemd-resolved` as the network name resolution service.
+
+## The problem ##
 
 A virtual private network (VPN) extends a private network across a public
 network, and enables users to send and receive data across shared or public
