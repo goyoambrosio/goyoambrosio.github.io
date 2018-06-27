@@ -1,5 +1,3 @@
--*- mode: markdown; coding: utf-8-unix-*-
-
 --
 title: "Preventing DNS leaks in VPNs"
 layout: # single
