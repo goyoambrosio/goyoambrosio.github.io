@@ -10,11 +10,11 @@ excerpt: # Auto-generated page excerpt is added to the overlay text or can be ov
 excerpt_separator: "<!--more-->"
 header:
   overlay_color: "#000000" 
-  overlay_filter: "0.5" # 1.0 Darkest
-  overlay_image: "/assets/images/2018/06/dnsleaks1.jpg"
-  caption: "Photo credit: [**Avira Blog**](https://blog.avira.com/dont-let-your-dns-leak/)"
+  overlay_filter: "0.6" # 1.0 Darkest
+  overlay_image: "/assets/images/2018/06/DNS.jpg"
+  caption: # "Photo credit: [**Avira Blog**](https://blog.avira.com/dont-let-your-dns-leak/)"
   image_description: "DNS leaks"
-  teaser: "/assets/images/2018/06/dnsleaks1.jpg"
+  teaser: "/assets/images/2018/06/DNS.jpg"
   show_overlay_excerpt: # true
 categories:
   - tutorial
@@ -32,10 +32,6 @@ tags:
   - resolv.conf
 last_modified_at: 2018-06-21
 ---
-
-A DNS leak is a problem with the network configuration that results in loss of
-privacy by sending DNS queries over insecure links instead of using the VPN
-connection.
 
 There are different ways to fix DNS leaks depending on your initial system
 configuration. A common situation, as occurs in Ubuntu 18.04, is when your
