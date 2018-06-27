@@ -179,13 +179,13 @@ To interact with D-Bus from command shell there are some related tools, such as
 operations. For example, to introspect the bus for the `systemd-resolved`
 service, you could execute any of these similar commands:
 
-``` shellsession
-gdbus introspect --system --dest org.freedesktop.resolve1 --object-path /org/freedesktop/resolve1
+``` shell
+$ gdbus introspect --system --dest org.freedesktop.resolve1 --object-path /org/freedesktop/resolve1
 ```
 
 or
 
-``` shellsession
+``` shell
 $ busctl introspect org.freedesktop.resolve1 /org/freedesktop/resolve1
 NAME                                TYPE      SIGNATURE     RESULT/VALUE                             FLAGS
 org.freedesktop.DBus.Introspectable interface -             -                                        -
@@ -301,7 +301,7 @@ free.
 In order to automate the previous actions you must write a script that is
 executed when the VPN starts up.
 
-### How to run the script when the VPN connection ups ###
+### How to run the script when the VPN connection is activated ###
 
 Ubuntu introduced `netplan` utility to configure network on ubuntu 18.04 LTS.
 [Netplan](https://netplan.io/) is defined as *the network configuration
