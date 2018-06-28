@@ -435,7 +435,7 @@ $ sudo chmod 755 /etc/NetworkManager/dispatcher.d/10-vpn-up
 This script will be executed by `NetworkManager` every time there was a
 connection change checking if the vpn connection id contains a certain substring
 (your VPN name or a common substring for all your DNS leaks free VPNs - `MyVPN`
-in this example). If yes the DNS Domain is set for the new VPN connection and no
+in this example). If you succeed, the DNS Domain is set for the new VPN connection and no
 DNS leaks any more.
 
  
