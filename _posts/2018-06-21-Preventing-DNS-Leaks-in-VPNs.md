@@ -208,6 +208,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
+    background-color: lightgray;
 }
 </style>
 <img src="https://dbus.freedesktop.org/doc/diagram.svg" alt="DBus diagram">
