@@ -55,7 +55,7 @@ img {
     margin-right: auto;
 }
 </style>
-<img src="/assets/images/2018/06/how-a-vpn-works-infographic-730x484_orig.png" alt="How a VPN works" width="300">
+<img src="/assets/images/2018/06/how-a-vpn-works-infographic-730x484_orig.png" alt="How a VPN works">
 
 Originally VPN were just a way to connect business networks together securely
 over the internet or allow you to access a business network from home. But
