@@ -53,6 +53,7 @@ img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 8px;
 }
 </style>
 <img src="https://blog.emsisoft.com/wp-content/uploads/2017/05/how_a_vpn_works_infographic-730x484.png" alt="How a VPN works">
