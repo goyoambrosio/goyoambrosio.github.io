@@ -33,9 +33,13 @@ last_modified_at: YYYY-MM-DD
 ![Image title](/assets/images/AAAA/MM/filename){: .align-left} Text
 ![Image title](/assets/images/AAAA/MM/filename){: .align-right} Text
 
-or for resizing
+or
 
 <img src="/assets/images/AAAA/MM/filename" width="100">
+
+or
+
+<img style="display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;border-radius: 8px;background-color: lightgray;" src="/assets/images/AAAA/MM/filename" alt="Alt text">
 
 Text Content {: style="text-align: justify;"}
 

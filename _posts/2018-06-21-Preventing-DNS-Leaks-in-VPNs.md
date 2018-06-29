@@ -66,7 +66,7 @@ in use and instead relays those requests to other DNS servers, perhaps owned by
 your ISP, your company or even a local server destroying your anonymity. That’s
 called a DNS leak.
 
-<img src="https://xvp.akamaized.net/assets/customer_tools/dns_leak/dns-leak-5f52236d7c3f0764fb719087b5ef02c1.png" alt="DNS Leak">
+<img  style="display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;border-radius: 8px;background-color: lightgray;" src="https://xvp.akamaized.net/assets/customer_tools/dns_leak/dns-leak-5f52236d7c3f0764fb719087b5ef02c1.png" alt="DNS Leak">
 
 A DNS leak is a problem with the network configuration that results in loss of
 privacy by sending DNS queries over insecure links instead of using the VPN
@@ -76,9 +76,11 @@ occurring, including [dnsleaktest](https://www.dnsleaktest.com),
 
 ## systemd-resolved ##
 
-![System daemons](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Linux_desktop_system_daemons_and_their_graphical_front-ends.svg/300px-Linux_desktop_system_daemons_and_their_graphical_front-ends.svg.png){: .align-left} `systemd-resolved` is a system service that provides network name resolution to
+`systemd-resolved` is a system service that provides network name resolution to
 local applications. It implements a caching and validating DNS/DNSSEC stub
 resolver, as well as an LLMNR resolver and responder.[^3]
+
+<img style="display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;border-radius: 8px;background-color: lightgray;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Linux_desktop_system_daemons_and_their_graphical_front-ends.svg/300px-Linux_desktop_system_daemons_and_their_graphical_front-ends.svg.png" alt="System daemons">
 
 Local applications may submit network name resolution requests via three interfaces: 
 
@@ -178,7 +180,7 @@ some basic concepts[^9]:
   methods and signals. Signatures are used for interface
   declaration/documentation, data marshalling, and validity checking.
 
-<img src="https://dbus.freedesktop.org/doc/diagram.svg" alt="DBus diagram">
+<img style="display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;border-radius: 8px;background-color: lightgray;" src="https://dbus.freedesktop.org/doc/diagram.svg" alt="DBus diagram">
   
 To interact with D-Bus from command shell there are some related tools, such as
 `busctl` , `gdbus` , `dbus-send`, etc., which can perform some D-BUS related
