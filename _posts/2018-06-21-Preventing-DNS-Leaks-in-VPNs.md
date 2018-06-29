@@ -57,7 +57,14 @@ img {
     background-color: lightgray;
 }
 </style>
-<img src="https://blog.emsisoft.com/wp-content/uploads/2017/05/how_a_vpn_works_infographic-730x484.png" alt="How a VPN works">
+
+<div style="position:relative;z-index:0>
+  <img src="https://blog.emsisoft.com/wp-content/uploads/2017/05/how_a_vpn_works_infographic-730x484.png" alt="How a VPN works">
+  <div style="position:absolute;z-index:1;right:0;bottom:0">
+    <p>Photo credit: <a href="https://blog.emsisoft.com">Emsisoft</a></p>
+  </div>
+</div>
+
 
 
 
