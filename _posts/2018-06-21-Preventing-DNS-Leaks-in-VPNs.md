@@ -80,7 +80,7 @@ occurring, including [dnsleaktest](https://www.dnsleaktest.com),
 local applications. It implements a caching and validating DNS/DNSSEC stub
 resolver, as well as an LLMNR resolver and responder.[^3]
 
-<img style="display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;border-radius: 8px;background-color: lightgray;" src="https://en.wikipedia.org/wiki/NetworkManager#/media/File:Linux_desktop_system_daemons_and_their_graphical_front-ends.svg" alt="System daemons">
+<img style="display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;border-radius: 8px;background-color: lightgray;" src="https://commons.wikimedia.org/wiki/File:Linux_desktop_system_daemons_and_their_graphical_front-ends.svg#/media/File:Linux_desktop_system_daemons_and_their_graphical_front-ends.svg" alt="System daemons">
 
 Local applications may submit network name resolution requests via three interfaces: 
 
