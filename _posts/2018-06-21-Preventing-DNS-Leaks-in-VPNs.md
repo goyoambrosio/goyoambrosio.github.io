@@ -77,6 +77,18 @@ in use and instead relays those requests to other DNS servers, perhaps owned by
 your ISP, your company or even a local server destroying your anonymity. That’s
 called a DNS leak.
 
+<style>
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+<img src="http://www.smt-center.com/images/dns_leak2.png" alt="DNS Leak">
+
+
 A DNS leak is a problem with the network configuration that results in loss of
 privacy by sending DNS queries over insecure links instead of using the VPN
 connection. Websites exist to allow testing to determine whether a DNS leak is
