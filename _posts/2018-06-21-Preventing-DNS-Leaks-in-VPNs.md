@@ -98,7 +98,7 @@ occurring, including [dnsleaktest](https://www.dnsleaktest.com),
 
 ## systemd-resolved ##
 
-`systemd-resolved` is a system service that provides network name resolution to
+![System daemons](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Linux_desktop_system_daemons_and_their_graphical_front-ends.svg/300px-Linux_desktop_system_daemons_and_their_graphical_front-ends.svg.png) {: .align-left} `systemd-resolved` is a system service that provides network name resolution to
 local applications. It implements a caching and validating DNS/DNSSEC stub
 resolver, as well as an LLMNR resolver and responder.[^3]
 
@@ -199,6 +199,19 @@ some basic concepts[^9]:
   called *Signatures* to describe the number and types of arguments requried by
   methods and signals. Signatures are used for interface
   declaration/documentation, data marshalling, and validity checking.
+  
+<style>
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+</style>
+<img src="https://dbus.freedesktop.org/doc/diagram.svg" alt="DBus diagram">
+  
   
 To interact with D-Bus from command shell there are some related tools, such as
 `busctl` , `gdbus` , `dbus-send`, etc., which can perform some D-BUS related
@@ -471,20 +484,20 @@ DNS leaks any more.
 
 [^1]: Mason, Andrew G. (2002). Cisco Secure Virtual Private Network. Cisco Press. p. 7.
 
-[^2]: https://www.howtogeek.com/133680/htg-explains-what-is-a-vpn/
+[^2]: <https://www.howtogeek.com/133680/htg-explains-what-is-a-vpn/>
 
-[^3]: https://www.freedesktop.org/software/systemd/man/systemd-resolved.service.html
+[^3]: <https://www.freedesktop.org/software/systemd/man/systemd-resolved.service.html>
 
-[^4]: https://en.wikipedia.org/wiki/Resolv.conf
+[^4]: <https://en.wikipedia.org/wiki/Resolv.conf>
 
-[^5]: https://netplan.io/
+[^5]: <https://netplan.io/>
 
-[^6]: https://www.freedesktop.org/software/systemd/man/resolved.conf.html
+[^6]: <https://www.freedesktop.org/software/systemd/man/resolved.conf.html>
 
-[^7]: https://www.freedesktop.org/wiki/Software/systemd/resolved/
+[^7]: <https://www.freedesktop.org/wiki/Software/systemd/resolved/>
 
-[^8]: https://hustcat.github.io/getting-started-with-dbus/
+[^8]: <https://hustcat.github.io/getting-started-with-dbus/>
 
-[^9]: https://pythonhosted.org/txdbus/dbus_overview.html
+[^9]: <https://pythonhosted.org/txdbus/dbus_overview.html>
 
-[^10]: https://wiki.archlinux.org/index.php/NetworkManager#Network_services_with_NetworkManager_dispatcher
+[^10]: <https://wiki.archlinux.org/index.php/NetworkManager#Network_services_with_NetworkManager_dispatcher>
