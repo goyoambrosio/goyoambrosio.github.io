@@ -7,7 +7,7 @@ comments: # true
 share: # true
 related: #true
 excerpt: # Auto-generated page excerpt is added to the overlay text or can be overridden here.
-excerpt_separator: "<!--more-->"
+excerpt_separator: # First line feed or for example: "<!--more-->"
 header:
   overlay_color: "#000000" 
   overlay_filter: "0.5" # 1.0 Darkest

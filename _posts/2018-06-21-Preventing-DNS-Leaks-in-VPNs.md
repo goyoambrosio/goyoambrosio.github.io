@@ -54,6 +54,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
+    background-color: lightgray;
 }
 </style>
 <img src="https://blog.emsisoft.com/wp-content/uploads/2017/05/how_a_vpn_works_infographic-730x484.png" alt="How a VPN works">
@@ -78,17 +79,7 @@ in use and instead relays those requests to other DNS servers, perhaps owned by
 your ISP, your company or even a local server destroying your anonymity. That’s
 called a DNS leak.
 
-<style>
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
 <img src="https://xvp.akamaized.net/assets/customer_tools/dns_leak/dns-leak-5f52236d7c3f0764fb719087b5ef02c1.png" alt="DNS Leak">
-
 
 A DNS leak is a problem with the network configuration that results in loss of
 privacy by sending DNS queries over insecure links instead of using the VPN
@@ -98,7 +89,7 @@ occurring, including [dnsleaktest](https://www.dnsleaktest.com),
 
 ## systemd-resolved ##
 
-![System daemons](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Linux_desktop_system_daemons_and_their_graphical_front-ends.svg/300px-Linux_desktop_system_daemons_and_their_graphical_front-ends.svg.png) {: .align-left} `systemd-resolved` is a system service that provides network name resolution to
+![System daemons](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Linux_desktop_system_daemons_and_their_graphical_front-ends.svg/300px-Linux_desktop_system_daemons_and_their_graphical_front-ends.svg.png){: .align-left} `systemd-resolved` is a system service that provides network name resolution to
 local applications. It implements a caching and validating DNS/DNSSEC stub
 resolver, as well as an LLMNR resolver and responder.[^3]
 
@@ -199,20 +190,8 @@ some basic concepts[^9]:
   called *Signatures* to describe the number and types of arguments requried by
   methods and signals. Signatures are used for interface
   declaration/documentation, data marshalling, and validity checking.
-  
-<style>
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    background-color: lightgray;
-}
-</style>
+
 <img src="https://dbus.freedesktop.org/doc/diagram.svg" alt="DBus diagram">
-  
   
 To interact with D-Bus from command shell there are some related tools, such as
 `busctl` , `gdbus` , `dbus-send`, etc., which can perform some D-BUS related
