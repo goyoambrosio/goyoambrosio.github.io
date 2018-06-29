@@ -60,17 +60,10 @@ img {
 
 <div style="position:relative;z-index:0;">
   <img src="https://blog.emsisoft.com/wp-content/uploads/2017/05/how_a_vpn_works_infographic-730x484.png" alt="How a VPN works">
-  <div style="position:relative;z-index:1;right:-10%;bottom:0">
+  <div style="position:relative;z-index:1;left:20;bottom:0">
     <p class="page__hero-caption">Photo credit: <a href="https://blog.emsisoft.com">Emsisoft</a></p>
   </div>
   <br><br>
-</div>
-
-<div 
-  style="display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;border-radius: 8px;background-color: lightgray;background-image: url('/assets/images/2018/06/how-a-vpn-works-infographic-730x484_orig.png');"
->
-<span class="page__hero-caption">Photo credit: <a href="http://perl.com"><strong>perl.com</strong></a></span>
-  
 </div>
 
 Originally VPN were just a way to connect business networks together securely
