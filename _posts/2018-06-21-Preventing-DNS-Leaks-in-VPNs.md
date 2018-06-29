@@ -46,6 +46,8 @@ networks as if their computing devices were directly connected to the private
 network. Applications running across a VPN may therefore benefit from the
 functionality, security, and management of the private network.[^1]
 
+<img src="/assets/images/2018/06/how-a-vpn-works-infographic-730x484_orig.png" width="300">
+
 Originally VPN were just a way to connect business networks together securely
 over the internet or allow you to access a business network from home. But
 nowadays are really popular for other reasons. As a VPN allows you to create a
