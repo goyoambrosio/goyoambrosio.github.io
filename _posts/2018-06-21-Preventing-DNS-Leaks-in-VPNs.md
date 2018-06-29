@@ -67,7 +67,7 @@ img {
 </div>
 
 <div class="page__hero--overlay"
-  style="display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;border-radius: 8px;background-color: lightgray; url('/assets/images/2018/06/how-a-vpn-works-infographic-730x484_orig.png');"
+  style="display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;border-radius: 8px;background-color: lightgray;background-image: url('/assets/images/2018/06/how-a-vpn-works-infographic-730x484_orig.png');"
 >
 <span class="page__hero-caption">Photo credit: <a href="http://perl.com"><strong>perl.com</strong></a></span>
   
