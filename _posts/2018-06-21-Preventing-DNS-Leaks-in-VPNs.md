@@ -46,18 +46,7 @@ networks as if their computing devices were directly connected to the private
 network. Applications running across a VPN may therefore benefit from the
 functionality, security, and management of the private network.[^1]
 
-<style>
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    background-color: lightgray;
-}
-</style>
-<img src="https://blog.emsisoft.com/wp-content/uploads/2017/05/how_a_vpn_works_infographic-730x484.png" alt="How a VPN works">
+<img style="display: block;max-width: 100%;height: auto;margin-left: auto;margin-right: auto;border-radius: 8px;background-color: lightgray;" src="https://blog.emsisoft.com/wp-content/uploads/2017/05/how_a_vpn_works_infographic-730x484.png" alt="How a VPN works">
 
 Originally VPN were just a way to connect business networks together securely
 over the internet or allow you to access a business network from home. But
