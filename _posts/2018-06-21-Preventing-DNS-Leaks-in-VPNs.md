@@ -86,7 +86,7 @@ img {
     margin-right: auto;
 }
 </style>
-<img src="http://www.smt-center.com/images/dns_leak2.png" alt="DNS Leak">
+<img src="https://xvp.akamaized.net/assets/customer_tools/dns_leak/dns-leak-5f52236d7c3f0764fb719087b5ef02c1.png" alt="DNS Leak">
 
 
 A DNS leak is a problem with the network configuration that results in loss of
