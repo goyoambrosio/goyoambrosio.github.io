@@ -86,9 +86,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "gambrosio"
+  username               : &twitter "goyoac"
 facebook:
-  username               : &facebook "goyo.ambrosio"
+  username               : &facebook "gregorio.ambrosio.cestero"
   app_id                 :
   publisher              :
 og_image                 : "/assets/images/goyo-site-logo.png" # Open Graph/Twitter default site image
