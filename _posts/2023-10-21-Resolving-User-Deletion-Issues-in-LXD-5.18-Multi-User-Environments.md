@@ -25,7 +25,6 @@ tags:
   - Ubuntu
   - lxc
   - container
-  - resolv.conf
 last_modified_at: 2023-10-21
 ---
 
